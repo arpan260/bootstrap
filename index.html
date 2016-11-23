@@ -402,7 +402,16 @@ You can edit text on your website by double clicking on a text box on your websi
 
 
 
-
+      <script>
+  $(document).ready(function() {  
+  		 $("#myCarousel").swiperight(function() {  
+    		  $(this).carousel('prev');  
+	    		});  
+		   $("#myCarousel").swipeleft(function() {  
+		      $(this).carousel('next');  
+	   });  
+	});  
+</script>
 
     
 
